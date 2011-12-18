@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule ^css/(.*)$ data/css/$1 [L]
+RewriteRule ^img/(.*)$ data/img/$1 [L]
+RewriteRule ^js/(.*)$ data/js/$1 [L]
+
+RewriteRule ^scripts/(.*)$ scripts/$1 [L]
+
+RewriteCond %{REQUEST_URI} !(css/|img/|images/|js/|swf/|xml/|file/video/|heartbeat.html|robots.txt|scripts/)
+RewriteRule ^(.*)$ index.php [L]

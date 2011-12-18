@@ -1,0 +1,11 @@
+<?php
+class HomeView extends mgt_TemplateView {
+	protected function goInnerBodyContent() {
+		?>
+		
+		<h1></h1><
+		
+		<?php 
+	}
+}
+?>

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/92/mougeotwit/trunk/classes/mvc/models/twitter/exceptions
+END
+mgt_TweetIncompleteInfoException.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/92/mougeotwit/trunk/classes/mvc/models/twitter/exceptions/mgt_TweetIncompleteInfoException.php
+END
