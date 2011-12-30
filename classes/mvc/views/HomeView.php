@@ -4,9 +4,11 @@ class HomeView extends TemplateView {
 	protected function content() {
 		?>
 		
-		<h1>Home!</h1>
+		<h1><?=$this->get_title;?></h1>
 		
-		<?php 
+		<?php
+
+		pfl('%s', $this->get_data);
 	}
 }
 ?>

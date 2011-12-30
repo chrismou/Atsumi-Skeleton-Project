@@ -7,7 +7,10 @@ class HomeController extends AbstractController {
 
 	function page_index() {		
 		$this->setView('HomeView');
-		$this->set('siteName', $this->app->get_siteName);
+		
+		$this->set('title', 'The home page');
+		$this->set('htmlTitle', 'Home');
+		$this->set('data', "content here");
 	}
 	
 }

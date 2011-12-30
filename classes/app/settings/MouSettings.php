@@ -7,10 +7,10 @@ class MouSettings extends ProductionSettings {
 		parent::createSettings();
 		
 		$this->setArray(array(
-				'mainDomain' 			=> 'mougeotwit.dev',
+				'mainDomain' 			=> '',
 				'debug'					=> true,
 				'logPath'				=> '/var/log/atsumi/',
-				'memcache'				=> true,
+				'memcache'				=> false,
 				'mcHost'				=> 'localhost',
 				'mcPort'				=> 11211,
 				/* Emails */

@@ -8,7 +8,7 @@ class ProductionSettings extends atsumi_AbstractAppSettings {
 				'version'				=> '0.1a',
 				/* Branding, Tags, keywords, Slogans */
 				'siteName'				=> 'Skeleton',
-				'mainDomain' 			=> 'skeleton.dev',
+				'mainDomain' 			=> '',
 				/* System Settings */
 				'debug'					=> false,
 				'logPath'				=> '/var/log/atsumi/',
@@ -19,12 +19,12 @@ class ProductionSettings extends atsumi_AbstractAppSettings {
 				'dbPassword'			=> '',
 				'dbHost'				=> 'localhost',
 				/* Caching */
-				'memcache'				=> true,
+				'memcache'				=> false,
 				'mcHost'				=> 'localhost',	
 				'mcPort'				=> 11211,
 				/* Emails */
 				'emailFrom'				=> 'auto@mou.me',
-				'emailSender'			=> 'auto@mou.me',
+				'emailFromName'			=> 'auto@mou.me',
 				'email_host'			=> 'localhost',
 				'email_protocol'		=> 'smtp'
 			)
