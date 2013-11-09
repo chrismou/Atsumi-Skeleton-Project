@@ -60,8 +60,8 @@ class mgt_TwitterTweetModel {
 		$now = time();
 		$difference = $now - $pubdate;
 		
-		$days = floor($difference / 84600);
-		$difference -= 84600 * floor($difference / 84600);
+		$days = floor($difference / 86400);
+		$difference -= 86400 * floor($difference / 86400);
 		
 		$hours = floor($difference / 3600);
 		$difference -= 3600 * floor($difference / 3600);
